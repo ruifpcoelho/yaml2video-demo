@@ -7,8 +7,25 @@ film:
         scenes:
           - duration: 2000
             end_y: 200
-      - image_path: images/yaml.png
-        width: 300
-        scenes:
+          - duration: 4000
+            end_y: 200
           - duration: 2000
-            end_y: 1200
+            end_y: 1770
+            effect: bounce
+      - image_path: images/up.png
+        width: 250
+        scenes:
+          - duration: 5000
+            start_t: 2000
+            start_x: 150
+            start_y: 1770
+            end_x: 900
+            end_y: -300
+      - image_path: images/down.png
+        width: 200
+        scenes:
+          - duration: 5000
+            start_t: 5000
+            start_x: 900
+            start_y: -150
+            end_y: 4000
