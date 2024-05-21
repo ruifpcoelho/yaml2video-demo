@@ -2,6 +2,8 @@ name: Build Video
 
 on: [push]
 
+runs-on: self-hosted
+
 jobs:
   build:
 

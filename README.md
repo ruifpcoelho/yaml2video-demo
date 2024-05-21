@@ -13,3 +13,4 @@ With these permissions set, GitHub Actions will have the necessary access to pus
 * Click "General"
 * Under the "Workflow permissions" section select "Read and write permissions"
 * Click "Save"
+
